@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2018 Dimitrijs Fedotovs
- * This code is licensed under MIT license
- * (see LICENSE.txt for details)
- */
+
 
 package apple.core.service.bookshelf.auth.boundary_user_link;
 
@@ -24,5 +20,12 @@ public class CurrentUser implements Serializable {
 
     public void setUser(UserEntity user) {
         this.user = user;
+    }
+}
+
+
+
+
+
     }
 }

@@ -40,6 +40,8 @@ public class LoginBean implements Serializable {
     @NotBlank(message = "С каких времён ПАРОЛЬ такой сложный?")
     private String password;
 
+
+
     public String login() throws IOException {
         FacesContext facesContext = FacesContext.getCurrentInstance();
         Credential credential = new UsernamePasswordCredential(loginName, password);
@@ -98,3 +100,5 @@ public class LoginBean implements Serializable {
         this.password = password;
     }
 }
+
+
